@@ -11,23 +11,48 @@ class Mp3Player : public DFMiniMp3<SoftwareSerial, Mp3Notifier> {
 public:
     Mp3Player(SoftwareSerial& softwareSerial, byte pinBusy)
     : DFMiniMp3<SoftwareSerial, Mp3Notifier>(softwareSerial),
-        _pinBusy(pinBusy), _maxVolume(30) {};
+        _pinBusy(pinBusy), _maxVolume(30), _folder(1), _track(1) {};
+
+    bool isPlaying() { return !digitalRead(_pinBusy); };
+    void setMaxVolume(uint8_t volume) { _maxVolume = volume; };
+
+    uint8_t folder() { return _folder; };
+    void setFolder(uint8_t folder) { _folder = folder; }
+    uint8_t track() { return _track; };
+    void setTrack(uint8_t track) { _track = track; };
+    uint16_t tracks() { return DFMiniMp3<SoftwareSerial, Mp3Notifier>::getFolderTrackCount(_folder); };
+
+    void nextTrack();
+    void prevTrack();
 
     // overloaded
     void increaseVolume();
     void setVolume(uint8_t volume);
 
-    bool isPlaying() { return !digitalRead(_pinBusy); };
-    void setMaxVolume(uint8_t volume) { _maxVolume = volume; };
-
 private:
     byte _pinBusy;
     uint8_t _maxVolume;
+    uint8_t _folder;
+    uint8_t _track;
 };
+
+void Mp3Player::nextTrack() {
+    DPRINTLNF("nextTrack()");
+    _track = (tracks() > _track) ? ++_track : 1;
+    DVPRINTLNF(_track);
+    DFMiniMp3<SoftwareSerial, Mp3Notifier>::playFolderTrack(_folder, _track);
+}
+
+void Mp3Player::prevTrack() {
+    DPRINTLNF("prevTrack()");
+    _track = (_track > 1) ? --_track : 1;
+    DVPRINTLNF(_track);
+    DFMiniMp3<SoftwareSerial, Mp3Notifier>::playFolderTrack(_folder, _track);
+}
 
 inline void Mp3Player::increaseVolume() {
     if (getVolume() < _maxVolume) {
-        DPRINTLNF("Increase volume")
+        DPRINTLNF("Increase volume");
         DFMiniMp3<SoftwareSerial, Mp3Notifier>::increaseVolume();
     } else {
         DPRINTF("Ignoring increaseVolume() because volume would be larger than ");
