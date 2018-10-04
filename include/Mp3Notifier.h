@@ -6,6 +6,10 @@
 class Mp3Notifier {
 public:
     static void OnError(uint16_t errorCode) {
+        DPRINTF("Error: ");
+        DPRINT(errorCode);
+        DPRINTF(" (");
+
         switch(errorCode) {
             case DfMp3_Error_Busy: DPRINTLNF("busy)"); break;
             case DfMp3_Error_Sleeping: DPRINTLNF("sleeping)"); break;
