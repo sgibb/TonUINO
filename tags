@@ -1,0 +1,308 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARDUINO_DIR	Makefile	/^ARDUINO_DIR = \/home\/sebastian\/tmp\/downloads\/arduino-1.8.7\/$/;"	m
+Advertise	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define Advertise 7$/;"	M	struct:
+BLINK	../libraries/JC_Button/examples/LongPress/LongPress.ino	/^enum states_t {ONOFF, TO_BLINK, BLINK, TO_ONOFF};$/;"	e	enum:states_t	file:
+BOARD_TAG	Makefile	/^BOARD_TAG    = uno$/;"	m
+Busy	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define Busy 1$/;"	M	struct:
+COMMON_ANODE	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	80;"	d	file:
+CheckSumNotMatch	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define CheckSumNotMatch 4$/;"	M	struct:
+DEBUG	tonuino.ino	3;"	d	file:
+DELAY	include/debug.h	/^#define DELAY(...)          delay(__VA_ARGS__);$/;"	M	struct:
+DELAY	include/debug.h	/^#define DELAY(...)$/;"	M	struct:
+DEPRECATED	../libraries/MFRC522/src/deprecated.h	/^#define DEPRECATED [[deprecated]]$/;"	M	struct:
+DEPRECATED	../libraries/MFRC522/src/deprecated.h	/^#define DEPRECATED __attribute__((deprecated))$/;"	M	struct:
+DEPRECATED_H	../libraries/MFRC522/src/deprecated.h	/^#define DEPRECATED_H$/;"	M	struct:
+DEPRECATED_MSG	../libraries/MFRC522/src/deprecated.h	/^#define DEPRECATED_MSG(msg) [[deprecated(msg)]]$/;"	M	struct:
+DEPRECATED_MSG	../libraries/MFRC522/src/deprecated.h	/^#define DEPRECATED_MSG(msg) __attribute__((deprecated(msg)))$/;"	M	struct:
+DFPLAYER_DEVICE_AUX	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_DEVICE_AUX 3$/;"	M	struct:
+DFPLAYER_DEVICE_FLASH	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_DEVICE_FLASH 5$/;"	M	struct:
+DFPLAYER_DEVICE_SD	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_DEVICE_SD 2$/;"	M	struct:
+DFPLAYER_DEVICE_SLEEP	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_DEVICE_SLEEP 4$/;"	M	struct:
+DFPLAYER_DEVICE_U_DISK	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_DEVICE_U_DISK 1$/;"	M	struct:
+DFPLAYER_EQ_BASS	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_EQ_BASS 5$/;"	M	struct:
+DFPLAYER_EQ_CLASSIC	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_EQ_CLASSIC 4$/;"	M	struct:
+DFPLAYER_EQ_JAZZ	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_EQ_JAZZ 3$/;"	M	struct:
+DFPLAYER_EQ_NORMAL	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_EQ_NORMAL 0$/;"	M	struct:
+DFPLAYER_EQ_POP	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_EQ_POP 1$/;"	M	struct:
+DFPLAYER_EQ_ROCK	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_EQ_ROCK 2$/;"	M	struct:
+DFPLAYER_RECEIVED_LENGTH	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_RECEIVED_LENGTH 10$/;"	M	struct:
+DFPLAYER_SEND_LENGTH	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPLAYER_SEND_LENGTH 10$/;"	M	struct:
+DFPlayerCardInserted	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPlayerCardInserted 2$/;"	M	struct:
+DFPlayerCardOnline	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPlayerCardOnline 4$/;"	M	struct:
+DFPlayerCardRemoved	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPlayerCardRemoved 3$/;"	M	struct:
+DFPlayerCardUSBOnline	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPlayerCardUSBOnline 10$/;"	M	struct:
+DFPlayerError	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPlayerError 6$/;"	M	struct:
+DFPlayerFeedBack	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPlayerFeedBack 11$/;"	M	struct:
+DFPlayerPlayFinished	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPlayerPlayFinished 5$/;"	M	struct:
+DFPlayerUSBInserted	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPlayerUSBInserted 7$/;"	M	struct:
+DFPlayerUSBOnline	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPlayerUSBOnline 9$/;"	M	struct:
+DFPlayerUSBRemoved	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define DFPlayerUSBRemoved 8$/;"	M	struct:
+DFRobotDFPlayerMini_cpp	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^    #define DFRobotDFPlayerMini_cpp$/;"	M	struct:
+DPRINT	include/debug.h	/^#define DPRINT(...)         Serial.print(__VA_ARGS__); Serial.flush();$/;"	M	struct:
+DPRINT	include/debug.h	/^#define DPRINT(...)$/;"	M	struct:
+DPRINTF	include/debug.h	/^#define DPRINTF(...)        Serial.print(F(__VA_ARGS__)); Serial.flush();$/;"	M	struct:
+DPRINTF	include/debug.h	/^#define DPRINTF(...)$/;"	M	struct:
+DPRINTLN	include/debug.h	/^#define DPRINTLN(...)       Serial.println(__VA_ARGS__); Serial.flush();$/;"	M	struct:
+DPRINTLN	include/debug.h	/^#define DPRINTLN(...)$/;"	M	struct:
+DPRINTLNF	include/debug.h	/^#define DPRINTLNF(...)      Serial.println(F(__VA_ARGS__)); Serial.flush();$/;"	M	struct:
+DPRINTLNF	include/debug.h	/^#define DPRINTLNF(...)$/;"	M	struct:
+DVPRINTLNF	include/debug.h	/^#define DVPRINTLNF(...)     Serial.print(F(#__VA_ARGS__" = ")); Serial.println(__VA_ARGS__); Serial.flush();$/;"	M	struct:
+DVPRINTLNF	include/debug.h	/^#define DVPRINTLNF(...)$/;"	M	struct:
+FileIndexOut	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define FileIndexOut 5$/;"	M	struct:
+FileMismatch	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define FileMismatch 6$/;"	M	struct:
+INITIALVOLUME	include/Mp3Player.h	/^#define INITIALVOLUME 2 \/\/ 0-30$/;"	M	interface:
+IRQ_PIN	../libraries/MFRC522/examples/MinimalInterrupt/MinimalInterrupt.ino	/^constexpr uint8_t IRQ_PIN = 2;     \/\/ Configurable, depends on hardware$/;"	v
+JC_BUTTON_H_INCLUDED	../libraries/JC_Button/src/JC_Button.h	/^#define JC_BUTTON_H_INCLUDED$/;"	M	struct:
+LED_OFF	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	84;"	d	file:
+LED_OFF	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	87;"	d	file:
+LED_ON	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	83;"	d	file:
+LED_ON	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	86;"	d	file:
+LONGPRESS	tonuino.ino	9;"	d	file:
+MAXALLOWEDVOLUME	include/Mp3Player.h	/^#define MAXALLOWEDVOLUME 24 \/\/ 0-30$/;"	M	interface:
+MFRC522Debug_h	../libraries/MFRC522/src/MFRC522Debug.h	/^#define MFRC522Debug_h$/;"	M	struct:
+MFRC522Extended_h	../libraries/MFRC522/src/MFRC522Extended.h	/^#define MFRC522Extended_h$/;"	M	struct:
+MFRC522HACK_H	../libraries/MFRC522/src/MFRC522Hack.h	/^#define MFRC522HACK_H$/;"	M	struct:
+MFRC522_h	../libraries/MFRC522/src/MFRC522.h	/^#define MFRC522_h$/;"	M	struct:
+MONITOR_BAUDRATE	Makefile	/^MONITOR_BAUDRATE = 115200$/;"	m
+MONITOR_PORT	Makefile	/^MONITOR_PORT = \/dev\/ttyACM0$/;"	m
+MP3NOTIFIER_H	include/Mp3Notifier.h	/^#define MP3NOTIFIER_H$/;"	M	struct:
+MP3PLAYER_H	include/Mp3Player.h	/^#define MP3PLAYER_H$/;"	M	interface:
+Mp3Notify	../libraries/DFPlayerMiniMp3/examples/PlayAdvertisements/PlayAdvertisements.ino	/^class Mp3Notify$/;"	c	file:
+Mp3Notify	../libraries/DFPlayerMiniMp3/examples/PlayMp3/PlayMp3.ino	/^class Mp3Notify$/;"	c	file:
+Mp3Notify	../libraries/DFPlayerMiniMp3/examples/PlayRandom/PlayRandom.ino	/^class Mp3Notify$/;"	c	file:
+NR_KNOWN_KEYS	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^constexpr uint8_t NR_KNOWN_KEYS = 8;$/;"	v
+NR_KNOWN_KEYS	../libraries/MFRC522/examples/rfid_default_keys/rfid_default_keys.ino	/^constexpr uint8_t NR_KNOWN_KEYS = 8;$/;"	v
+NR_OF_READERS	../libraries/MFRC522/examples/ReadUidMultiReader/ReadUidMultiReader.ino	/^constexpr uint8_t NR_OF_READERS = 2;$/;"	v
+ONOFF	../libraries/JC_Button/examples/LongPress/LongPress.ino	/^enum states_t {ONOFF, TO_BLINK, BLINK, TO_ONOFF};$/;"	e	enum:states_t	file:
+OnCardInserted	../libraries/DFPlayerMiniMp3/examples/PlayAdvertisements/PlayAdvertisements.ino	/^  static void OnCardInserted(uint16_t code)$/;"	f	class:Mp3Notify
+OnCardInserted	../libraries/DFPlayerMiniMp3/examples/PlayMp3/PlayMp3.ino	/^  static void OnCardInserted(uint16_t code)$/;"	f	class:Mp3Notify
+OnCardInserted	../libraries/DFPlayerMiniMp3/examples/PlayRandom/PlayRandom.ino	/^  static void OnCardInserted(uint16_t code)$/;"	f	class:Mp3Notify
+OnCardOnline	../libraries/DFPlayerMiniMp3/examples/PlayAdvertisements/PlayAdvertisements.ino	/^  static void OnCardOnline(uint16_t code)$/;"	f	class:Mp3Notify
+OnCardOnline	../libraries/DFPlayerMiniMp3/examples/PlayMp3/PlayMp3.ino	/^  static void OnCardOnline(uint16_t code)$/;"	f	class:Mp3Notify
+OnCardOnline	../libraries/DFPlayerMiniMp3/examples/PlayRandom/PlayRandom.ino	/^  static void OnCardOnline(uint16_t code)$/;"	f	class:Mp3Notify
+OnCardRemoved	../libraries/DFPlayerMiniMp3/examples/PlayAdvertisements/PlayAdvertisements.ino	/^  static void OnCardRemoved(uint16_t code)$/;"	f	class:Mp3Notify
+OnCardRemoved	../libraries/DFPlayerMiniMp3/examples/PlayMp3/PlayMp3.ino	/^  static void OnCardRemoved(uint16_t code)$/;"	f	class:Mp3Notify
+OnCardRemoved	../libraries/DFPlayerMiniMp3/examples/PlayRandom/PlayRandom.ino	/^  static void OnCardRemoved(uint16_t code)$/;"	f	class:Mp3Notify
+OnError	../libraries/DFPlayerMiniMp3/examples/PlayAdvertisements/PlayAdvertisements.ino	/^  static void OnError(uint16_t errorCode)$/;"	f	class:Mp3Notify
+OnError	../libraries/DFPlayerMiniMp3/examples/PlayMp3/PlayMp3.ino	/^  static void OnError(uint16_t errorCode)$/;"	f	class:Mp3Notify
+OnError	../libraries/DFPlayerMiniMp3/examples/PlayRandom/PlayRandom.ino	/^  static void OnError(uint16_t errorCode)$/;"	f	class:Mp3Notify
+OnPlayFinished	../libraries/DFPlayerMiniMp3/examples/PlayAdvertisements/PlayAdvertisements.ino	/^  static void OnPlayFinished(uint16_t track)$/;"	f	class:Mp3Notify
+OnPlayFinished	../libraries/DFPlayerMiniMp3/examples/PlayMp3/PlayMp3.ino	/^  static void OnPlayFinished(uint16_t globalTrack)$/;"	f	class:Mp3Notify
+OnPlayFinished	../libraries/DFPlayerMiniMp3/examples/PlayRandom/PlayRandom.ino	/^  static void OnPlayFinished(uint16_t track)$/;"	f	class:Mp3Notify
+REQUIRE_CPP11_H	../libraries/MFRC522/src/require_cpp11.h	/^#define REQUIRE_CPP11_H$/;"	M	struct:
+RFIDREADER_H	include/RfidReader.h	/^#define RFIDREADER_H$/;"	M	interface:
+RST_PIN	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/ChangeUID/ChangeUID.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/DumpInfo/DumpInfo.ino	/^constexpr uint8_t RST_PIN = 9;          \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/FixBrickedUID/FixBrickedUID.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/MifareClassicValueBlock/MifareClassicValueBlock.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/MinimalInterrupt/MinimalInterrupt.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/Ntag216_AUTH/Ntag216_AUTH.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/ReadAndWrite/ReadAndWrite.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/ReadNUID/ReadNUID.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/ReadUidMultiReader/ReadUidMultiReader.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/firmware_check/firmware_check.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/rfid_default_keys/rfid_default_keys.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/rfid_read_personal_data/rfid_read_personal_data.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RST_PIN	../libraries/MFRC522/examples/rfid_write_personal_data/rfid_write_personal_data.ino	/^constexpr uint8_t RST_PIN = 9;     \/\/ Configurable, see typical pin layout above$/;"	v
+RfidCard	include/RfidReader.h	/^struct RfidCard {$/;"	s	interface:
+SERIALBEGIN	include/debug.h	/^#define SERIALBEGIN(...)    Serial.begin(__VA_ARGS__);$/;"	M	struct:
+SERIALBEGIN	include/debug.h	/^#define SERIALBEGIN(...)$/;"	M	struct:
+SS_1_PIN	../libraries/MFRC522/examples/ReadUidMultiReader/ReadUidMultiReader.ino	/^constexpr uint8_t SS_1_PIN = 10;   \/\/ Configurable, take a unused pin, only HIGH\/LOW required, must be diffrent to SS 2$/;"	v
+SS_2_PIN	../libraries/MFRC522/examples/ReadUidMultiReader/ReadUidMultiReader.ino	/^constexpr uint8_t SS_2_PIN = 8;    \/\/ Configurable, take a unused pin, only HIGH\/LOW required, must be diffrent to SS 1$/;"	v
+SS_PIN	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/ChangeUID/ChangeUID.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/DumpInfo/DumpInfo.ino	/^constexpr uint8_t SS_PIN = 10;         \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/FixBrickedUID/FixBrickedUID.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/MifareClassicValueBlock/MifareClassicValueBlock.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/MinimalInterrupt/MinimalInterrupt.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/Ntag216_AUTH/Ntag216_AUTH.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/ReadAndWrite/ReadAndWrite.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/ReadNUID/ReadNUID.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/firmware_check/firmware_check.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/rfid_default_keys/rfid_default_keys.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/rfid_read_personal_data/rfid_read_personal_data.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SS_PIN	../libraries/MFRC522/examples/rfid_write_personal_data/rfid_write_personal_data.ino	/^constexpr uint8_t SS_PIN = 10;     \/\/ Configurable, see typical pin layout above$/;"	v
+SerialWrongStack	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define SerialWrongStack 3$/;"	M	struct:
+ShowReaderDetails	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void ShowReaderDetails() {$/;"	f
+Sleeping	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define Sleeping 2$/;"	M	struct:
+Stack_ACK	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define Stack_ACK 4$/;"	M	struct:
+Stack_CheckSum	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define Stack_CheckSum 7$/;"	M	struct:
+Stack_Command	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define Stack_Command 3$/;"	M	struct:
+Stack_End	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define Stack_End 9$/;"	M	struct:
+Stack_Header	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define Stack_Header 0$/;"	M	struct:
+Stack_Length	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define Stack_Length 2$/;"	M	struct:
+Stack_Parameter	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define Stack_Parameter 5$/;"	M	struct:
+Stack_Version	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define Stack_Version 1$/;"	M	struct:
+TO_BLINK	../libraries/JC_Button/examples/LongPress/LongPress.ino	/^enum states_t {ONOFF, TO_BLINK, BLINK, TO_ONOFF};$/;"	e	enum:states_t	file:
+TO_ONOFF	../libraries/JC_Button/examples/LongPress/LongPress.ino	/^enum states_t {ONOFF, TO_BLINK, BLINK, TO_ONOFF};$/;"	e	enum:states_t	file:
+TimeOut	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define TimeOut 0$/;"	M	struct:
+WrongStack	../libraries/DFRobotDFPlayerMini/DFRobotDFPlayerMini.h	/^#define WrongStack 1$/;"	M	struct:
+activateRec	../libraries/MFRC522/examples/MinimalInterrupt/MinimalInterrupt.ino	/^void activateRec(MFRC522 mfrc522) {$/;"	f
+bNewInt	../libraries/MFRC522/examples/MinimalInterrupt/MinimalInterrupt.ino	/^volatile bool bNewInt = false;$/;"	v
+begin	include/RfidReader.h	/^void RfidReader::begin() {$/;"	f	struct:RfidCard
+block	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^byte block;$/;"	v
+blueLed	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^constexpr uint8_t blueLed = 5;$/;"	v
+buffer	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^byte buffer[18];$/;"	v
+checkTwo	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^bool checkTwo ( byte a[], byte b[] ) {   $/;"	f
+choice	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^char choice;$/;"	v
+clearInt	../libraries/MFRC522/examples/MinimalInterrupt/MinimalInterrupt.ino	/^void clearInt(MFRC522 mfrc522) {$/;"	f
+closeCard	include/RfidReader.h	/^void RfidReader::closeCard() {$/;"	f	struct:RfidCard
+cookie	include/RfidReader.h	/^    uint32_t cookie;    \/\/ 4 Byte$/;"	F	struct:RfidCard
+cycleLeds	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void cycleLeds() {$/;"	f
+decreaseVolume	include/Mp3Player.h	/^inline void Mp3Player::decreaseVolume() {$/;"	f	interface:
+deleteID	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void deleteID( byte a[] ) {$/;"	f
+denied	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void denied() {$/;"	f
+dumpByteArray	include/RfidReader.h	/^void RfidReader::dumpByteArray(byte *buffer, byte bufferSize) {$/;"	f	struct:RfidCard
+dump_byte_array	../libraries/MFRC522/examples/MifareClassicValueBlock/MifareClassicValueBlock.ino	/^void dump_byte_array(byte *buffer, byte bufferSize) {$/;"	f
+dump_byte_array	../libraries/MFRC522/examples/MinimalInterrupt/MinimalInterrupt.ino	/^void dump_byte_array(byte *buffer, byte bufferSize) {$/;"	f
+dump_byte_array	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^void dump_byte_array(byte *buffer, byte bufferSize) {$/;"	f
+dump_byte_array	../libraries/MFRC522/examples/ReadAndWrite/ReadAndWrite.ino	/^void dump_byte_array(byte *buffer, byte bufferSize) {$/;"	f
+dump_byte_array	../libraries/MFRC522/examples/ReadUidMultiReader/ReadUidMultiReader.ino	/^void dump_byte_array(byte *buffer, byte bufferSize) {$/;"	f
+dump_byte_array	../libraries/MFRC522/examples/rfid_default_keys/rfid_default_keys.ino	/^void dump_byte_array(byte *buffer, byte bufferSize) {$/;"	f
+dump_byte_array1	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^void dump_byte_array1(byte *buffer, byte bufferSize) {$/;"	f
+failedWrite	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void failedWrite() {$/;"	f
+fastBlink	../libraries/JC_Button/examples/LongPress/LongPress.ino	/^void fastBlink()$/;"	f
+findID	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^bool findID( byte find[] ) {$/;"	f
+findIDSLOT	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^uint8_t findIDSLOT( byte find[] ) {$/;"	f
+folder	include/RfidReader.h	/^    uint8_t folder;     \/\/ 1 Byte$/;"	F	struct:RfidCard
+formatValueBlock	../libraries/MFRC522/examples/MifareClassicValueBlock/MifareClassicValueBlock.ino	/^void formatValueBlock(byte blockAddr) {$/;"	f
+getID	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^uint8_t getID() {$/;"	f
+granted	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void granted ( uint16_t setDelay) {$/;"	f
+greenLed	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^constexpr uint8_t greenLed = 6;$/;"	v
+increaseVolume	include/Mp3Player.h	/^inline void Mp3Player::increaseVolume() {$/;"	f	interface:
+isMaster	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^bool isMaster( byte test[] ) {$/;"	f
+isNewRfidCardPresent	include/RfidReader.h	/^bool RfidReader::isNewRfidCardPresent() {$/;"	f	struct:RfidCard
+isTrackFinished	tonuino.ino	/^bool Mp3Notifier::isTrackFinished = true;$/;"	m	class:Mp3Notifier	file:
+keuze1	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^void keuze1(){ \/\/Read card$/;"	f
+keuze2	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^void keuze2(){ \/\/Test waardes in blokken$/;"	f
+keuze3	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^void keuze3(){ \/\/Copy the data in the new card$/;"	f
+key	../libraries/MFRC522/examples/ChangeUID/ChangeUID.ino	/^MFRC522::MIFARE_Key key;$/;"	v
+key	../libraries/MFRC522/examples/FixBrickedUID/FixBrickedUID.ino	/^MFRC522::MIFARE_Key key;$/;"	v
+key	../libraries/MFRC522/examples/MifareClassicValueBlock/MifareClassicValueBlock.ino	/^MFRC522::MIFARE_Key key;$/;"	v
+key	../libraries/MFRC522/examples/MinimalInterrupt/MinimalInterrupt.ino	/^MFRC522::MIFARE_Key key;$/;"	v
+key	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^MFRC522::MIFARE_Key key;$/;"	v
+key	../libraries/MFRC522/examples/ReadAndWrite/ReadAndWrite.ino	/^MFRC522::MIFARE_Key key;$/;"	v
+key	../libraries/MFRC522/examples/ReadNUID/ReadNUID.ino	/^MFRC522::MIFARE_Key key; $/;"	v
+knownKeys	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^byte knownKeys[NR_KNOWN_KEYS][MFRC522::MF_KEY_SIZE] =  {$/;"	v
+knownKeys	../libraries/MFRC522/examples/rfid_default_keys/rfid_default_keys.ino	/^byte knownKeys[NR_KNOWN_KEYS][MFRC522::MF_KEY_SIZE] =  {$/;"	v
+lastAdvert	../libraries/DFPlayerMiniMp3/examples/PlayAdvertisements/PlayAdvertisements.ino	/^uint32_t lastAdvert; \/\/ track time for last advertisement$/;"	v
+ledState	../libraries/JC_Button/examples/LongPress/LongPress.ino	/^bool ledState;                  \/\/ current LED status$/;"	v
+loop	../libraries/DFPlayerMiniMp3/examples/PlayAdvertisements/PlayAdvertisements.ino	/^void loop() $/;"	f
+loop	../libraries/DFPlayerMiniMp3/examples/PlayMp3/PlayMp3.ino	/^void loop() $/;"	f
+loop	../libraries/DFPlayerMiniMp3/examples/PlayRandom/PlayRandom.ino	/^void loop() $/;"	f
+loop	../libraries/DFRobotDFPlayerMini/examples/AdvancedSettingViaSerial1/AdvancedSettingViaSerial1.ino	/^void loop()$/;"	f
+loop	../libraries/DFRobotDFPlayerMini/examples/AdvancedSettingWithoutACK/AdvancedSettingWithoutACK.ino	/^void loop()$/;"	f
+loop	../libraries/DFRobotDFPlayerMini/examples/AdvancedSettingWithoutReset/AdvancedSettingWithoutReset.ino	/^void loop()$/;"	f
+loop	../libraries/DFRobotDFPlayerMini/examples/FullFunction/FullFunction.ino	/^void loop()$/;"	f
+loop	../libraries/DFRobotDFPlayerMini/examples/GetStarted/GetStarted.ino	/^void loop()$/;"	f
+loop	../libraries/DFRobotDFPlayerMini/examples/ReadValues/ReadValues.ino	/^void loop()$/;"	f
+loop	../libraries/JC_Button/examples/LongPress/LongPress.ino	/^void loop()$/;"	f
+loop	../libraries/JC_Button/examples/SimpleOnOff/SimpleOnOff.ino	/^void loop()$/;"	f
+loop	../libraries/JC_Button/examples/UpDown/UpDown.ino	/^void loop()$/;"	f
+loop	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void loop () {$/;"	f
+loop	../libraries/MFRC522/examples/ChangeUID/ChangeUID.ino	/^void loop() {$/;"	f
+loop	../libraries/MFRC522/examples/DumpInfo/DumpInfo.ino	/^void loop() {$/;"	f
+loop	../libraries/MFRC522/examples/FixBrickedUID/FixBrickedUID.ino	/^void loop() {$/;"	f
+loop	../libraries/MFRC522/examples/MifareClassicValueBlock/MifareClassicValueBlock.ino	/^void loop() {$/;"	f
+loop	../libraries/MFRC522/examples/MinimalInterrupt/MinimalInterrupt.ino	/^void loop() {$/;"	f
+loop	../libraries/MFRC522/examples/Ntag216_AUTH/Ntag216_AUTH.ino	/^void loop() {$/;"	f
+loop	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^void loop() {$/;"	f
+loop	../libraries/MFRC522/examples/ReadAndWrite/ReadAndWrite.ino	/^void loop() {$/;"	f
+loop	../libraries/MFRC522/examples/ReadNUID/ReadNUID.ino	/^void loop() {$/;"	f
+loop	../libraries/MFRC522/examples/ReadUidMultiReader/ReadUidMultiReader.ino	/^void loop() {$/;"	f
+loop	../libraries/MFRC522/examples/firmware_check/firmware_check.ino	/^void loop() {} \/\/ nothing to do$/;"	f
+loop	../libraries/MFRC522/examples/rfid_default_keys/rfid_default_keys.ino	/^void loop() {$/;"	f
+loop	../libraries/MFRC522/examples/rfid_read_personal_data/rfid_read_personal_data.ino	/^void loop() {$/;"	f
+loop	../libraries/MFRC522/examples/rfid_write_personal_data/rfid_write_personal_data.ino	/^void loop() {$/;"	f
+loop	include/Mp3Player.h	/^void Mp3Player::loop() {$/;"	f	interface:
+loop	tonuino.ino	/^void loop() {$/;"	f
+masterCard	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^byte masterCard[4];   \/\/ Stores master card's ID read from EEPROM$/;"	v
+mfrc522	../libraries/MFRC522/examples/ChangeUID/ChangeUID.ino	/^MFRC522Hack mfrc522Hack(&mfrc522);  \/\/ Create MFRC522Hack instance.$/;"	v
+mfrc522	../libraries/MFRC522/examples/FixBrickedUID/FixBrickedUID.ino	/^MFRC522Hack mfrc522Hack(&mfrc522);  \/\/ Create MFRC522Hack instance.$/;"	v
+mfrc522	../libraries/MFRC522/examples/ReadUidMultiReader/ReadUidMultiReader.ino	/^MFRC522 mfrc522[NR_OF_READERS];   \/\/ Create MFRC522 instance.$/;"	v
+monitorWipeButton	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^bool monitorWipeButton(uint32_t interval) {$/;"	f
+ms	../libraries/JC_Button/examples/LongPress/LongPress.ino	/^unsigned long ms;               \/\/ current time from millis()$/;"	v
+msLast	../libraries/JC_Button/examples/LongPress/LongPress.ino	/^unsigned long msLast;           \/\/ last time the LED was switched$/;"	v
+myDFPlayer	../libraries/DFRobotDFPlayerMini/examples/AdvancedSettingViaSerial1/AdvancedSettingViaSerial1.ino	/^DFRobotDFPlayerMini myDFPlayer;$/;"	v
+myDFPlayer	../libraries/DFRobotDFPlayerMini/examples/AdvancedSettingWithoutACK/AdvancedSettingWithoutACK.ino	/^DFRobotDFPlayerMini myDFPlayer;$/;"	v
+myDFPlayer	../libraries/DFRobotDFPlayerMini/examples/AdvancedSettingWithoutReset/AdvancedSettingWithoutReset.ino	/^DFRobotDFPlayerMini myDFPlayer;$/;"	v
+myDFPlayer	../libraries/DFRobotDFPlayerMini/examples/FullFunction/FullFunction.ino	/^DFRobotDFPlayerMini myDFPlayer;$/;"	v
+myDFPlayer	../libraries/DFRobotDFPlayerMini/examples/GetStarted/GetStarted.ino	/^DFRobotDFPlayerMini myDFPlayer;$/;"	v
+myDFPlayer	../libraries/DFRobotDFPlayerMini/examples/ReadValues/ReadValues.ino	/^DFRobotDFPlayerMini myDFPlayer;$/;"	v
+newUid	../libraries/MFRC522/examples/ChangeUID/ChangeUID.ino	/^byte newUid[] = {0xDE, 0xAD, 0xBE, 0xEF};$/;"	v
+nextTrack	include/Mp3Player.h	/^void Mp3Player::nextTrack() {$/;"	f	interface:
+normalModeOn	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void normalModeOn () {$/;"	f
+nuidPICC	../libraries/MFRC522/examples/ReadNUID/ReadNUID.ino	/^byte nuidPICC[4];$/;"	v
+playTrack	include/Mp3Player.h	/^void Mp3Player::playTrack() {$/;"	f	interface:
+prevTrack	include/Mp3Player.h	/^void Mp3Player::prevTrack() {$/;"	f	interface:
+printDec	../libraries/MFRC522/examples/ReadNUID/ReadNUID.ino	/^void printDec(byte *buffer, byte bufferSize) {$/;"	f
+printDetail	../libraries/DFRobotDFPlayerMini/examples/AdvancedSettingViaSerial1/AdvancedSettingViaSerial1.ino	/^void printDetail(uint8_t type, int value){$/;"	f
+printDetail	../libraries/DFRobotDFPlayerMini/examples/AdvancedSettingWithoutACK/AdvancedSettingWithoutACK.ino	/^void printDetail(uint8_t type, int value){$/;"	f
+printDetail	../libraries/DFRobotDFPlayerMini/examples/AdvancedSettingWithoutReset/AdvancedSettingWithoutReset.ino	/^void printDetail(uint8_t type, int value){$/;"	f
+printDetail	../libraries/DFRobotDFPlayerMini/examples/FullFunction/FullFunction.ino	/^void printDetail(uint8_t type, int value){$/;"	f
+printDetail	../libraries/DFRobotDFPlayerMini/examples/GetStarted/GetStarted.ino	/^void printDetail(uint8_t type, int value){$/;"	f
+printDetail	../libraries/DFRobotDFPlayerMini/examples/ReadValues/ReadValues.ino	/^void printDetail(uint8_t type, int value){$/;"	f
+printHex	../libraries/MFRC522/examples/ReadNUID/ReadNUID.ino	/^void printHex(byte *buffer, byte bufferSize) {$/;"	f
+programMode	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^bool programMode = false;  \/\/ initialize programming mode to false$/;"	v
+readCard	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^byte readCard[4];   \/\/ Stores scanned ID read from RFID Module$/;"	v
+readCard	../libraries/MFRC522/examples/MinimalInterrupt/MinimalInterrupt.ino	/^void readCard() {$/;"	f
+readCard	include/RfidReader.h	/^bool RfidReader::readCard(RfidCard *card) {$/;"	f	struct:RfidCard
+readID	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void readID( uint8_t number ) {$/;"	f
+redLed	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^constexpr uint8_t redLed = 7;   \/\/ Set Led Pins$/;"	v
+regVal	../libraries/MFRC522/examples/MinimalInterrupt/MinimalInterrupt.ino	/^byte regVal = 0x7F;$/;"	v
+relay	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^constexpr uint8_t relay = 4;     \/\/ Set Relay Pin$/;"	v
+setVolume	include/Mp3Player.h	/^inline void Mp3Player::setVolume(uint8_t volume) {$/;"	f	interface:
+setup	../libraries/DFPlayerMiniMp3/examples/PlayAdvertisements/PlayAdvertisements.ino	/^void setup() $/;"	f
+setup	../libraries/DFPlayerMiniMp3/examples/PlayMp3/PlayMp3.ino	/^void setup() $/;"	f
+setup	../libraries/DFPlayerMiniMp3/examples/PlayRandom/PlayRandom.ino	/^void setup() $/;"	f
+setup	../libraries/DFRobotDFPlayerMini/examples/AdvancedSettingViaSerial1/AdvancedSettingViaSerial1.ino	/^void setup()$/;"	f
+setup	../libraries/DFRobotDFPlayerMini/examples/AdvancedSettingWithoutACK/AdvancedSettingWithoutACK.ino	/^void setup()$/;"	f
+setup	../libraries/DFRobotDFPlayerMini/examples/AdvancedSettingWithoutReset/AdvancedSettingWithoutReset.ino	/^void setup()$/;"	f
+setup	../libraries/DFRobotDFPlayerMini/examples/FullFunction/FullFunction.ino	/^void setup()$/;"	f
+setup	../libraries/DFRobotDFPlayerMini/examples/GetStarted/GetStarted.ino	/^void setup()$/;"	f
+setup	../libraries/DFRobotDFPlayerMini/examples/ReadValues/ReadValues.ino	/^void setup()$/;"	f
+setup	../libraries/JC_Button/examples/LongPress/LongPress.ino	/^void setup()$/;"	f
+setup	../libraries/JC_Button/examples/SimpleOnOff/SimpleOnOff.ino	/^void setup()$/;"	f
+setup	../libraries/JC_Button/examples/UpDown/UpDown.ino	/^void setup()$/;"	f
+setup	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/ChangeUID/ChangeUID.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/DumpInfo/DumpInfo.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/FixBrickedUID/FixBrickedUID.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/MifareClassicValueBlock/MifareClassicValueBlock.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/MinimalInterrupt/MinimalInterrupt.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/Ntag216_AUTH/Ntag216_AUTH.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/ReadAndWrite/ReadAndWrite.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/ReadNUID/ReadNUID.ino	/^void setup() { $/;"	f
+setup	../libraries/MFRC522/examples/ReadUidMultiReader/ReadUidMultiReader.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/firmware_check/firmware_check.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/rfid_default_keys/rfid_default_keys.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/rfid_read_personal_data/rfid_read_personal_data.ino	/^void setup() {$/;"	f
+setup	../libraries/MFRC522/examples/rfid_write_personal_data/rfid_write_personal_data.ino	/^void setup() {$/;"	f
+setup	tonuino.ino	/^void setup() {$/;"	f
+ssPins	../libraries/MFRC522/examples/ReadUidMultiReader/ReadUidMultiReader.ino	/^byte ssPins[] = {SS_1_PIN, SS_2_PIN};$/;"	v
+start	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^void start(){$/;"	f
+states_t	../libraries/JC_Button/examples/LongPress/LongPress.ino	/^enum states_t {ONOFF, TO_BLINK, BLINK, TO_ONOFF};$/;"	g	file:
+status	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^MFRC522::StatusCode status;$/;"	v
+storedCard	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^byte storedCard[4];   \/\/ Stores an ID read from EEPROM$/;"	v
+successDelete	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void successDelete() {$/;"	f
+successRead	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^uint8_t successRead;    \/\/ Variable integer to keep if we have Successful Read from Reader$/;"	v
+successWrite	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void successWrite() {$/;"	f
+switchLED	../libraries/JC_Button/examples/LongPress/LongPress.ino	/^void switchLED()$/;"	f
+toggleSleepState	include/Mp3Player.h	/^void Mp3Player::toggleSleepState() {$/;"	f	interface:
+try_key	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^bool try_key(MFRC522::MIFARE_Key *key)$/;"	f
+try_key	../libraries/MFRC522/examples/rfid_default_keys/rfid_default_keys.ino	/^bool try_key(MFRC522::MIFARE_Key *key)$/;"	f
+version	include/RfidReader.h	/^    uint8_t version;    \/\/ 1 Byte$/;"	F	struct:RfidCard
+waarde	../libraries/MFRC522/examples/RFIDCloner/RFIDCloner.ino	/^byte waarde[64][16];$/;"	v
+waitMilliseconds	../libraries/DFPlayerMiniMp3/examples/PlayMp3/PlayMp3.ino	/^void waitMilliseconds(uint16_t msWait)$/;"	f
+wipeB	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^constexpr uint8_t wipeB = 3;     \/\/ Button pin for WipeMode$/;"	v
+writeCard	include/RfidReader.h	/^bool RfidReader::writeCard(RfidCard *card) {$/;"	f	struct:RfidCard
+writeID	../libraries/MFRC522/examples/AccessControl/AccessControl.ino	/^void writeID( byte a[] ) {$/;"	f
