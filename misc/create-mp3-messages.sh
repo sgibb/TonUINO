@@ -1,22 +1,24 @@
 #!/bin/bash
-
 ESPEAK=/usr/bin/espeak
 VOICE="mb-de2"
 ESPEAKARG="-v${VOICE} -s 150 --stdout"
 LAME=/usr/bin/lame
 LAMEARG="-m m -"
 SDDIR="sdcard"
+MSGFILE="audio-messages.txt"
 
 function speak {
-    echo "${1}" | \
+    FILE=$(echo "${1}" | cut -d ":" -f 1).mp3
+    MSG=$(echo "${1}" | cut -d ":" -f 2)
+    echo "${MSG}" | \
     ${ESPEAK} ${ESPEAKARG} | \
-    ${LAME} ${LAMEARG} ${SDDIR}/${2}
+    ${LAME} ${LAMEARG} ${SDDIR}/${FILE}
 }
 
-## advert
-speak "Leider konnte ich die Karte nicht richtig lesen." \
-    "advert/0001-rfid-read-failed.mp3"
+rm -rf ${SDDIR}/{advert,mp3}/*.mp3
 
-## mp3
-speak "Bitte lege eine Karte auf, die neu beschrieben soll." \
-    "mp3/0001-write-new-card.mp3"
+while read LINE; do
+    if [ -n "${LINE}" -a ${LINE:0:1} != '#' ] ; then
+        speak "${LINE}"
+    fi
+done < ${MSGFILE}

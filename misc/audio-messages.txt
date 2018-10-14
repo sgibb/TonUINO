@@ -1,0 +1,5 @@
+# advert
+advert/0001-rfid-read-failed:Leider konnte ich die Karte nicht richtig lesen.
+
+# mp3
+mp3/0001-apply-new-card:Bitte lege eine Karte auf, die neu beschrieben soll.
