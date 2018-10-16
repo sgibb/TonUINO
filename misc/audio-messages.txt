@@ -1,5 +1,8 @@
 # advert
 advert/0001-rfid-read-failed:Leider konnte ich die Karte nicht richtig lesen.
+advert/0002-play-modus:Du hast in den Abspielmodus gewechselt.
 
 # mp3
-mp3/0001-apply-new-card:Bitte lege eine Karte auf, die neu beschrieben soll.
+mp3/0256-apply-new-rfid-card:Du hast in den Kartenmodus gewechselt. Bitte wähle mit den Lautstärketasten den gewünschten Ordner aus. Drücke die Taste "Lauter" für den nächsten Ordner und die Taste "Leiser" für den vorherigen. Wenn du deine Auswahl getroffen hast, lege bitte eine Karte auf, die überschrieben werden soll. Drücke die Wiedergabetaste um wieder in den Abspielmodus zu gelangen. Wir beginnen mit Ordner 1.
+mp3/0257-new-rfid-card-written:Die Karte wurde erfolgreich beschrieben.
+mp3/0258-new-rfid-card-failed:Hoppla, leider konnte ich die Karte nicht beschreiben! Bitte versuche es erneut.

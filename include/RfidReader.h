@@ -21,6 +21,7 @@ public:
     bool isNewRfidCardPresent();
     bool readCard(RfidCard *card);
     bool writeCard(RfidCard *card);
+    bool resetCard(RfidCard *card);
     void closeCard();
 
 private:
@@ -106,7 +107,21 @@ bool RfidReader::readCard(RfidCard *card) {
         (static_cast<uint32_t>(buffer[1]) << 16) +
         (static_cast<uint32_t>(buffer[2]) << 8) +
         static_cast<uint32_t>(buffer[3]);
+
+    if (card->cookie != 70111110) {
+        DPRINTF("RFID-Card: wrong cookie ");
+        DVPRINTLNF(card->cookie);
+        return false;
+    }
+
     card->version = buffer[4];
+
+    if (card->version != 1) {
+        DPRINTF("RFID-Card: wrong version ");
+        DVPRINTLNF(card->version);
+        return false;
+    }
+
     card->folder = buffer[5];
 
     return true;
@@ -114,7 +129,7 @@ bool RfidReader::readCard(RfidCard *card) {
 
 bool RfidReader::writeCard(RfidCard *card) {
     byte buffer[] = {
-        0x70, 0x11, 0x11, 0x10, // TonUNIO => leet speak: 70.11.11.10
+        0x04, 0x2D, 0xCF, 0x86, // TonUNIO => leet speak: 70.11.11.10
                                 // without "U" to identify our RFID tags
         0x01,                   // version 1
         card->folder,           // the folder picked by the user
@@ -143,6 +158,40 @@ bool RfidReader::writeCard(RfidCard *card) {
         DPRINTLN(_mfrc522.GetStatusCodeName(status));
         return false;
     }
+    return true;
+}
+
+bool RfidReader::resetCard(RfidCard *card) {
+    byte buffer[16];
+    byte size = sizeof(buffer);
+
+    for (byte i = 0; i < size; i++) {
+        buffer[i] = 0x00;
+    }
+
+    DPRINTLNF("Authenticating using key A ...");
+    MFRC522::StatusCode status = _mfrc522.PCD_Authenticate(
+            MFRC522::PICC_CMD_MF_AUTH_KEY_A,
+            _trailingBlockAddress,
+            &_key,
+            &(_mfrc522.uid)
+    );
+    if (status != MFRC522::STATUS_OK) {
+        DPRINTF("PCD_Authenticate() failed: ")
+        DPRINTLN(_mfrc522.GetStatusCodeName(status));
+        return false;
+    }
+
+    DPRINTF("Writing data into block ");
+    DPRINT(_blockAddress);
+    DPRINTLNF(" ...");
+    status = _mfrc522.MIFARE_Write(_blockAddress, buffer, size);
+    if (status != MFRC522::STATUS_OK) {
+        DPRINTF("MIFARE_Write() failed: ");
+        DPRINTLN(_mfrc522.GetStatusCodeName(status));
+        return false;
+    }
+    return true;
 }
 
 void RfidReader::closeCard() {

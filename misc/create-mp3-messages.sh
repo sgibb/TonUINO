@@ -1,7 +1,7 @@
 #!/bin/bash
 ESPEAK=/usr/bin/espeak
 VOICE="mb-de2"
-ESPEAKARG="-v${VOICE} -s 150 --stdout"
+ESPEAKARG="-v${VOICE} --stdout"
 LAME=/usr/bin/lame
 LAMEARG="-m m -"
 SDDIR="sdcard"
@@ -17,8 +17,12 @@ function speak {
 
 rm -rf ${SDDIR}/{advert,mp3}/*.mp3
 
+for i in {1..255}; do
+    speak "mp3/$(printf '%04d' ${i}):Ordner ${i}"
+done
+
 while read LINE; do
-    if [ -n "${LINE}" -a ${LINE:0:1} != '#' ] ; then
+    if [ -n "${LINE}" ] && [ ${LINE:0:1} != '#' ] ; then
         speak "${LINE}"
     fi
 done < ${MSGFILE}

@@ -24,6 +24,7 @@ public:
     static void OnPlayFinished(uint16_t track) {
         DPRINTF("Play finished for #");
         DPRINTLN(track);
+        isTrackFinished = isModeMp3Player;
     }
     static void OnCardOnline(uint16_t code) {
         DPRINTF("SD-Card online: ");
@@ -37,6 +38,8 @@ public:
         DPRINTF("SD-Card removed: ");
         DPRINTLN(code);
     }
+    static bool isTrackFinished;
+    static bool isModeMp3Player;
 };
 
 #endif /* !MP3NOTIFIER_H */
